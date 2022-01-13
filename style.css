@@ -1,0 +1,280 @@
+
+.align-items-center {
+  padding-top: 45%;
+  position: relative;
+  background-size:cover;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  
+}
+
+.header-text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+  color: rgb(80, 80, 80);
+  font-size: 50px;
+  
+ 
+}
+
+.header-text2{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: rgb(80, 80, 80);
+ 
+}
+
+
+
+
+
+
+.hidden-spacer {
+  height: 56px
+}
+
+.navhead {
+
+  margin-bottom: 100px;
+}
+
+.navbar-brand {
+
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 50px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: rgb(80, 80, 80);
+  display: block;
+}
+
+
+.nav-link{
+
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  margin-top: 50px;
+  margin-right: 50px;
+  display: block;
+
+}
+
+.image2 {
+
+  background-image: url('newsweek.jpg');
+
+}
+
+
+.meet-out-hosts2 {
+
+  margin-bottom: 30px;
+}
+
+
+.Image1 {
+  padding-top: 80%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.main {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#bebebe;
+}
+
+.mainImage {
+  padding-top: 50%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+.text-1 a{
+
+  color: black;
+ 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
+.sub-main-title{
+
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 30px;
+  
+  
+}
+
+.sub-main-image {
+  padding: 25px;
+  padding-bottom:20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(206, 206, 206);
+  max-width:100%;
+  margin-bottom: 40px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*
+.pt-5{
+  
+  background-size: cover;
+  
+  margin: 0px;
+  padding: 40px 0px;
+  padding: 25px;
+}*/
+
+.footer-dark {
+  padding:30px 0px;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.first-line {
+  margin-bottom: 10px;
+  color: #c5c5c5;
+  font-size: 22px;
+}
+
+
+
+.footer-dark h3{
+  text-align: center;
+}
+
+
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+.form-group{
+  margin-top: 20px;
+}
+
+#exampleInputEmail1 {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+#exampleMessage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.social {
+
+  margin-top: 20px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #575757; 
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.form-control{
+  padding: 10px;
+  margin-left: 90px;
+ 
+  padding: 10px 10px ;
+  border: none;
+  
+  
+
+}
