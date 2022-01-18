@@ -1,79 +1,124 @@
 
-.align-items-center {
-  padding-top: 45%;
-  position: relative;
-  background-size:cover;
- 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  
+
+/*
+.navbar {
+  position: absolute;
+}
+
+.navbar-nav{
+  margin-left: auto;
   
 }
 
-.header-text {
+.navhead1 {
+  
+  width: 0px;
+  background-size:cover;
+  
+}
 
+.nav-item a {
+
+  margin-left: 30px;
+  padding: 10px;
+  margin-right: 50px;
+  
+}
+*/
+/* ----------- Header ----------- */
+
+nav{
+  position:absolute;
+ 
+}
+
+
+.active{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 50px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: rgb(80, 80, 80);
+  text-decoration: none!important;
+  display: inline-block;
+
+}
+
+a:hover{
+  color: #000000;
+}
+
+.nav-link{
+
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+  display: inline-block;
+ 
+  color: rgb(80, 80, 80);
+
+  margin-top: 60px;
+
+ margin-left: 50px;
+
+ text-decoration: #575757;
+
+}
+
+
+
+
+
+
+/* ----------- Main ----------- */
+
+
+.imgmain {
+  height: 690px;
+ 
+  
+  background-size:cover;
+  background-image: url('photo-1481278403982-f2d9f387cdcc.jpg');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  
+  display: inline-block;
+  
+  background-attachment: fixed;
+  background-position: auto,center top;
+  
+}
+
+.main-text {
+  display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   bottom: 10%;
   transform: translate(-50%, -50%);
   color: rgb(80, 80, 80);
   font-size: 50px;
-  
+  display: inline-block;
  
 }
 
-.header-text2{
-
+.main-text2{
+  display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   font-size: 30px;
   transform: translate(-50%, -50%);
   color: rgb(80, 80, 80);
- 
+  display: inline-block;
 }
-
-
-
-
 
 
 .hidden-spacer {
   height: 56px
 }
 
-.navhead {
-
-  margin-bottom: 100px;
-}
-
-.navbar-brand {
-
-  font-weight: bold;
-  margin-left: 70px;
-  margin-top: 50px;
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  color: rgb(80, 80, 80);
-  display: block;
-}
-
-
-.nav-link{
-
-  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  margin-top: 50px;
-  margin-right: 50px;
-  display: block;
-
-}
-
-.image2 {
-
-  background-image: url('newsweek.jpg');
-
-}
 
 
 .meet-out-hosts2 {
@@ -89,15 +134,11 @@
 }
 
 
-
-
-
-
-
 .main {
   padding:50px 0;
   color:#f0f9ff;
   background-color:#bebebe;
+  
 }
 
 .mainImage {
@@ -105,21 +146,9 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+ 
   
 }
-
-
-
-
-.text-1 a{
-
-  color: black;
- 
-  font-weight: bold;
-  font-size: 20px;
-}
-
-
 
 
 .sub-main-title{
@@ -139,19 +168,41 @@
   background-color: rgb(206, 206, 206);
   max-width:100%;
   margin-bottom: 40px;
-
-
-
-
 }
 
 
+.text-1 a{
+
+  color: black;
+ 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    width: 8.333333%;
+  }
+}
 
 
+@media (max-width: 919px) {
+  #meet-out-hosts1 {
+    background-color: black;
+    color: white;
+  }
+}
 
-
-
-
+@media (min-width: 920px) {
+  #meet-out-hosts1 #black-background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 54%;
+  }
+}
 
 /*
 .pt-5{
@@ -162,6 +213,9 @@
   padding: 40px 0px;
   padding: 25px;
 }*/
+
+
+/* ----------- Footer ----------- */
 
 .footer-dark {
   padding:30px 0px;
@@ -181,8 +235,6 @@
   text-align: center;
 }
 
-
-
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align:center;
@@ -201,6 +253,9 @@
     margin-top:20px;
   }
 }
+
+
+
 
 .footer-dark .item.social > a {
   font-size:20px;
@@ -278,3 +333,12 @@
   
 
 }
+
+/* ----------- aspectRatioBox ----------- */
+
+.aspectRatioLandscape{
+  padding-top: calc(9/16 * 100%);
+  background-position: center;
+  background-size: cover;
+}
+
